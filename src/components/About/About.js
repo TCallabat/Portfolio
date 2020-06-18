@@ -40,10 +40,10 @@ function About(props) {
                 {/* Images others */}
                 <Row className="m-0 px-0 py-4">
                     <Col md={3}>
-                        <Image fluid rounded className="h-100 w-100" alt="Project_09-image-2" src="projects/project_01-4.jpg" />
+                        <Image fluid rounded className="h-100 w-100" alt="Project_09-image-2" src="./projects/project_01-4.jpg" />
                     </Col>
                     <Col md={3}>
-                        <Image fluid rounded className="h-100 w-100" alt="Project_09-image-5" src="/projects/project_09-3.jpg" />
+                        <Image fluid rounded className="h-100 w-100" alt="Project_09-image-5" src="./projects/project_09-3.jpg" />
                     </Col>
                     <Col md={3}>
                         <Image fluid rounded className="h-100 w-100" alt="Project_10-image-3" src="./projects/project_08-1.jpg" />

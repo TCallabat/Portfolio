@@ -18,7 +18,7 @@ function Project(props) {
         <Container fluid className="m-0 p-0 mainContainer bg-light">
 
             {/* Title */}
-            <Row className="m-0 p-4 bg-dark" style={{ width: "100%", height: "7rem", background: "url(/work-731198_1920.jpg) no-repeat center", backgroundSize: "cover" }}>
+            <Row className="m-0 p-4 bg-dark" style={{ width: "100%", height: "7rem", background: "url(./work-731198_1920.jpg) no-repeat center", backgroundSize: "cover" }}>
                 <Col md={12}>
                     <h1 className="text-white text-center text-uppercase font-weight-bold">mes Projets</h1>
                 </Col>
@@ -32,7 +32,7 @@ function Project(props) {
                     <Col md={12}>
                         <ul className="m-0 position-relative list-unstyled" id="timeline">
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-left.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
                                         <Row>
@@ -45,7 +45,7 @@ function Project(props) {
                                                 <p>Portage du site de l'association sur ReactJS, réalisation d'un annuaire, d'un formulaire d'inscription et création d'un backoffice pour la gestion des données avec accès adhérent/administrateur différencié.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_10-3.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_10-3.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_10">En savoir plus</Link>
                                                 </div>
