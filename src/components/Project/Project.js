@@ -55,7 +55,7 @@ function Project(props) {
                                 </div>
                             </li>
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-right.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
                                         <Row>
@@ -68,7 +68,7 @@ function Project(props) {
                                                 <p>Réalisation d'un site d'ecommerce fullstack JavaScript avec ReactJS et NodeJS.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_09-1.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_09-1.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_09">En savoir plus</Link>
                                                 </div>
@@ -81,7 +81,7 @@ function Project(props) {
 
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-left.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
                                         <Row>
@@ -94,7 +94,7 @@ function Project(props) {
                                                 <p>Réalisation d'une application mobile ecommerce fullstack JavaScript avec ReactNative et NodeJS.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_08-1.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_08-1.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_08">En savoir plus</Link>
                                                 </div>
@@ -105,7 +105,7 @@ function Project(props) {
                             </li>
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-right.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
                                         <Row>
@@ -118,7 +118,7 @@ function Project(props) {
                                                 <p>Réalisation d'une application météo (jour et prévision) connectée à l'api openweather.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_07-4.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_07-4.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_07">En savoir plus</Link>
                                                 </div>
@@ -129,7 +129,7 @@ function Project(props) {
                             </li>
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-left.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
                                         <Row>
@@ -142,7 +142,7 @@ function Project(props) {
                                                 <p>Réalisation d'un répertoire.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_06-5.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_06-5.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_06">En savoir plus</Link>
                                                 </div>
@@ -153,7 +153,7 @@ function Project(props) {
                             </li>
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-right.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
                                         <Row>
@@ -166,7 +166,7 @@ function Project(props) {
                                                 <p>Réalisation d'une todo list.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_05-3.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_05-3.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_05">En savoir plus</Link>
                                                 </div>
@@ -177,7 +177,7 @@ function Project(props) {
                             </li>
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-left.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
                                         <Row>
@@ -190,7 +190,7 @@ function Project(props) {
                                                 <p>Réalisation d'un script simulant un configurateur auto : choix de la finition, moteur, couleur, accessoires. Utilisation des alertes du navigateur pour la gestion des évènements.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_04-1.png" />
+                                                <Image fluid rounded alt="" src="./projects/project_04-1.png" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_04">En savoir plus</Link>
                                                 </div>
@@ -201,7 +201,7 @@ function Project(props) {
                             </li>
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-right.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
                                         <Row>
@@ -214,7 +214,7 @@ function Project(props) {
                                                 <p>Réalisation d'un script de régulation pour un casino simulant les actions suivantes : entrer, jouer ou consommer avec la gestion d'un solde minimum et d'un age. Utilisation des alertes du navigateur pour la gestion des évènements.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_03-1.png" />
+                                                <Image fluid rounded alt="" src="./projects/project_03-1.png" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_03">En savoir plus</Link>
                                                 </div>
@@ -225,7 +225,7 @@ function Project(props) {
                             </li>
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-left.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
                                         <Row>
@@ -238,7 +238,7 @@ function Project(props) {
                                                 <p>Réalisation d'une landing page responsive pour une galerie d'art respectant la charte graphique de la marque.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_02-4.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_02-4.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_02">En savoir plus</Link>
                                                 </div>
@@ -249,7 +249,7 @@ function Project(props) {
                             </li>
 
                             <li className="mb-4 position-relative">
-                                <img className="mb-2 position-absolute icon" src="/share-right.svg" alt="" />
+                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
                                         <Row>
@@ -262,7 +262,7 @@ function Project(props) {
                                                 <p>Réalisation d'une landing page respectant les codes couleurs de la marque et responsive en utilisant les media queries.</p>
                                             </Col>
                                             <Col md={4}>
-                                                <Image fluid rounded alt="" src="/projects/project_01-1.jpg" />
+                                                <Image fluid rounded alt="" src="./projects/project_01-1.jpg" />
                                                 <div className="text-center w-100 pt-1">
                                                     <Link className="text-dark text-decoration-none" to="/project_01">En savoir plus</Link>
                                                 </div>
