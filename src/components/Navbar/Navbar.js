@@ -19,7 +19,7 @@ function Header(props) {
                 <Navbar.Brand href="/" className="name ml-auto">Thibaut Callabat</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
+                        <Nav className="m-auto">
                             <ul className="navbar-nav">
                                 <li>
                                     <Link to="/">accueil</Link>
