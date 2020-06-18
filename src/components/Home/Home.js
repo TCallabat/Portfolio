@@ -16,14 +16,15 @@ function Home(props) {
         <Container fluid className="m-0 p-0 mainContainer bg-light">
 
             {/* Title */}
-            <Row className="m-0 p-4 bg-dark" style={{ width: "100%", height: "7rem", background: "url(./work-731198_1920.jpg) no-repeat center", backgroundSize: "cover" }}>
+            <Row className="m-0 p-4 bg-dark" style={{ width: "100%", height: "9rem", background: "url(./work-731198_1920.jpg) no-repeat center", backgroundSize: "cover" }}>
                 <Col md={12}>
-                    <h1 className="text-white text-center text-uppercase font-weight-bold">a propos</h1>
+                    <h1 className="text-white text-center text-uppercase font-weight-bold">Thibaut Callabat</h1>
+                    <h3 className="text-white text-center font-weight-bold">Développeur Fullstack JavaScript</h3>
                 </Col>
             </Row>
 
             {/* Container */}
-            <Container className="p-0 py-4">
+            <Container className="p-0 pb-4">
 
                 {/* Detail */}
                 <Row className="m-0 my-4 p-0">
