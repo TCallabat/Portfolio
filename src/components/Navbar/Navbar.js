@@ -16,7 +16,7 @@ function Header(props) {
     return (
         <Container fluid className="m-0 p-0" id="home">
                 <Navbar expand="lg" className="m-0 p-0 w-100">
-                <Navbar.Brand href="/" className="name ml-auto">Thibaut Callabat</Navbar.Brand>
+                <Navbar.Brand href="https://tcallabat.github.io/portfolio/" className="name ml-auto">Thibaut Callabat</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="m-auto">
