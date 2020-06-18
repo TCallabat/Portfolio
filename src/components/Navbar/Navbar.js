@@ -4,7 +4,7 @@
 
 /* imports modules  */
 import React, { } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import "./style.scss";
@@ -30,12 +30,12 @@ function Navbar(props) {
                         <Link to="projects">projets</Link>
                     </li>
                     <li>
-                        <a target="_blank" href="https://github.com/TCallabat">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TCallabat">
                             <img src="./bxl-github.svg" alt="github" />
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/thibaut-callabat/">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/thibaut-callabat/">
                             <img src="./bxl-linkedin.svg" alt="linkedin" />
                         </a>
                     </li>

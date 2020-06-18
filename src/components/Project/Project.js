@@ -31,7 +31,7 @@ function Project(props) {
                 <Row className="m-0 px-4 pt-4 pb-2 projectDetail">
                     <Col md={12}>
                         <ul className="m-0 position-relative list-unstyled" id="timeline">
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
@@ -54,7 +54,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
@@ -77,10 +77,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
@@ -103,8 +100,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
@@ -127,8 +123,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
@@ -151,8 +146,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
@@ -175,8 +169,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
@@ -199,8 +192,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
@@ -223,8 +215,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-left">
                                     <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
@@ -247,8 +238,7 @@ function Project(props) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="mb-4 position-relative">
+                            <li className="position-relative">
                                 <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
                                 <div className="m-0 p-0 w-50 float-right">
                                     <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
