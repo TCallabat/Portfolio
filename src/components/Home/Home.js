@@ -27,7 +27,7 @@ function Home(props) {
             <Container className="p-0 pb-4">
 
                 {/* Detail */}
-                <Row className="m-0 my-4 p-0">
+                <Row className="m-0 mb-4 p-0">
                     <Col md={12} className="py-3">
 
                         <Carousel>
