@@ -58,7 +58,7 @@ function Project_07(props) {
                                 <Row>
                                     <Col md={3}><u>Lien :</u></Col>
                                     <Col md={9}>
-                                        <a className="text-decoration-none text-dark" href="/" target="_blank">Github Weather-App-React-Native</a>
+                                        <a className="text-decoration-none text-dark" href="https://github.com/TCallabat/Weather-App-React-Native" target="_blank">Github Weather-App-React-Native</a>
                                     </Col>
                                 </Row>
                             </ListGroup.Item>

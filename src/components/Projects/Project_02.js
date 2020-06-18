@@ -58,7 +58,7 @@ function Project_02(props) {
                                 <Row>
                                     <Col md={3}><u>Lien :</u></Col>
                                     <Col md={9}>
-                                        <a className="text-decoration-none text-dark" href="/" target="_blank">Github Artenobilia</a>
+                                        <a className="text-decoration-none text-dark" href="https://github.com/TCallabat/Artenobilia" target="_blank">Github Artenobilia</a>
                                     </Col>
                                 </Row>
                             </ListGroup.Item>

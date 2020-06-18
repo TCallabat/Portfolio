@@ -52,7 +52,7 @@ function Project_04(props) {
                                 <Row>
                                     <Col md={3}><u>Lien :</u></Col>
                                     <Col md={9}>
-                                        <a className="text-decoration-none text-dark" href="/" target="_blank">Github Car-Configurator</a>
+                                        <a className="text-decoration-none text-dark" href="https://github.com/TCallabat/Car-Configurator" target="_blank">Github Car-Configurator</a>
                                     </Col>
                                 </Row>
                             </ListGroup.Item>
