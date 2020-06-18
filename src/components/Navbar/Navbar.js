@@ -4,7 +4,7 @@
 
 /* imports modules  */
 import React, { } from "react";
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import "./style.scss";
@@ -17,6 +17,7 @@ function Navbar(props) {
         <Container fluid className="m-0 p-0 mainContainer bg-warning" id="home">
             <nav className="navbar navbar-expand-md navbar-dark fixed-top">
                 <ul className="navbar-nav m-auto">
+                    <li className="navbar-brand text-dark">Thibaut Callabat</li>
                     <li>
                         <Link to="/">accueil</Link>
                     </li>
