@@ -4,7 +4,7 @@
 
 /* imports modules */
 import React, { } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 /* import components */
 //import Home from "../Home/Home";
@@ -31,7 +31,7 @@ import "./style.scss";
 function App(props) {
 
   return (
-    <Router>
+    <HashRouter basename='/'>
 
       <Navbar />
 
@@ -56,7 +56,7 @@ function App(props) {
 
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
