@@ -30,7 +30,7 @@ function Skills(props) {
                     <Col md={12}>
                         <CardGroup>
                             <Card className="mx-2 rounded border">
-                                <Card.Img src="./browser.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="browser logo" />
+                                <Card.Img src="./browser.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="browser logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">Front-end</Card.Title>
                                     <Card.Text className="px-4">
@@ -45,7 +45,7 @@ function Skills(props) {
                                 </Card.Body>
                             </Card>
                             <Card className="mx-2 rounded border">
-                                <Card.Img src="./server.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="server logo" />
+                                <Card.Img src="./server.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="server logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">Back-end</Card.Title>
                                     <Card.Text className="px-4">
@@ -59,7 +59,7 @@ function Skills(props) {
                                 </Card.Body>
                             </Card>
                             <Card className="mx-2 rounded border">
-                                <Card.Img src="./tools.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="tools logo" />
+                                <Card.Img src="./tools.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="tools logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">Divers</Card.Title>
                                     <Card.Text className="px-4">
@@ -73,7 +73,7 @@ function Skills(props) {
                                 </Card.Body>
                             </Card>
                             <Card className="mx-2 rounded border">
-                                <Card.Img src="./spinner.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="spinner logo" />
+                                <Card.Img src="./spinner.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="spinner logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">En cours</Card.Title>
                                     <Card.Text className="px-4">

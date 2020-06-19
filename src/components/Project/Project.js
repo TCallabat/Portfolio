@@ -36,7 +36,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_10-3.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_10-3.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>CannesIsUp</u></Card.Title>
@@ -56,7 +56,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_09-1.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_09-1.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>site ecommerce</u></Card.Title>
@@ -76,7 +76,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_08-1.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_08-1.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>application ecommerce</u></Card.Title>
@@ -96,7 +96,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_07-4.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_07-4.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>application météo</u></Card.Title>
@@ -116,7 +116,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_06-5.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_06-5.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>contact book</u></Card.Title>
@@ -136,7 +136,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_05-3.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_05-3.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>to do list</u></Card.Title>
@@ -156,7 +156,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_04-1.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_04-1.png" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>configurateur auto</u></Card.Title>
@@ -176,7 +176,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_03-1.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_03-1.png" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>casino</u></Card.Title>
@@ -196,7 +196,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_02-4.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_02-4.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>Artenobilia</u></Card.Title>
@@ -216,7 +216,7 @@ function Project(props) {
                             <Card.Body>
                                 <Row>
                                     <Col md={3}>
-                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_01-1.jpg" />
+                                        <Card.Img fluid className="bg-dark my-auto" alt="" src="./projects/project_01-1.jpg" />
                                     </Col>
                                     <Col md={9}>
                                         <Card.Title className="text-left font-weight-bold text-capitalize"><u>Mika piscines</u></Card.Title>
