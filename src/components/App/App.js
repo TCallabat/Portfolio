@@ -30,7 +30,7 @@ import "./style.scss";
 function App(props) {
 
   return (
-    <BrowserRouter basename='/'>
+    <HashRouter basename='/'>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -48,7 +48,7 @@ function App(props) {
         <Route path="/project_09" component={Project_09} />
         <Route path="/project_10" component={Project_10} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
