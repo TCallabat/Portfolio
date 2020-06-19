@@ -8,7 +8,6 @@ import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 
 /* import components */
 import Navbar from "../Navbar/Navbar";
-import Home from "../Home/Home";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Project from "../Project/Project";
@@ -33,8 +32,7 @@ function App(props) {
     <HashRouter basename='/'>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route exact path="/" component={About} />
         <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Project} />
         <Route path="/project_01" component={Project_01} />

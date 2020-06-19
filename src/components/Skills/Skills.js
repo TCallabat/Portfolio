@@ -92,16 +92,16 @@ function Skills(props) {
 
                 {/* Images others */}
                 <Row className="m-0 px-0 py-4">
-                    <Col md={3}>
+                    <Col sm={6} md={3}>
                         <Image fluid rounded className="h-100 w-100" alt="Project_09-image-2" src="./projects/project_01-2.jpg" />
                     </Col>
-                    <Col md={3}>
+                    <Col sm={6} md={3}>
                         <Image fluid rounded className="h-100 w-100" alt="Project_09-image-5" src="./projects/project_02-4.jpg" />
                     </Col>
-                    <Col md={3}>
+                    <Col sm={6} md={3}>
                         <Image fluid rounded className="h-100 w-100" alt="Project_10-image-3" src="./projects/project_07-2.jpg" />
                     </Col>
-                    <Col md={3}>
+                    <Col sm={6} md={3}>
                         <Image fluid rounded className="h-100 w-100" alt="Project_10-image-4" src="./projects/project_10-5.jpg" />
                     </Col>
                 </Row>

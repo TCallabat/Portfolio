@@ -22,10 +22,7 @@ function Header(props) {
                     <Nav className="m-auto">
                         <ul className="navbar-nav">
                             <li>
-                                <Link to="/">accueil</Link>
-                            </li>
-                            <li>
-                                <Link to="about">a propos</Link>
+                                <Link to="/">a propos</Link>
                             </li>
                             <li>
                                 <Link to="skills">compétences</Link>
