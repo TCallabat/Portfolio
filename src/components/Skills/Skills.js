@@ -18,7 +18,7 @@ function Skills(props) {
             {/* Title */}
             <Row className="m-0 p-4 bg-dark" style={{ width: "100%", height: "7rem", background: "url(./work-731198_1920.jpg) no-repeat center", backgroundSize: "cover" }}>
                 <Col md={12}>
-                    <h1 className="text-white text-center text-uppercase font-weight-bold">mes compétences</h1>
+                    <h1 className="text-white text-center text-uppercase font-weight-bold">compétences</h1>
                 </Col>
             </Row>
 
@@ -29,66 +29,59 @@ function Skills(props) {
                 <Row className="m-0 my-4 p-0">
                     <Col md={12}>
                         <CardGroup>
-                            <Card className="mx-3 rounded border">
-                                <Card.Img src="./browser.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="browser logo" />
+                            <Card className="mx-2 rounded border">
+                                <Card.Img src="./browser.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="browser logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">Front-end</Card.Title>
                                     <Card.Text className="px-4">
-                                        <ListGroup variant="flush">
-                                            <ListGroup.Item className="text-center m-0 p-1">HTML 5 / CSS 3</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">Bootstrap</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">JavaScript</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">ReactJS / React Native</ListGroup.Item>
+                                        <ListGroup>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />HTML 5 / CSS 3</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />Bootstrap</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />JavaScript</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />ReactJS</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />React Native</ListGroup.Item>
                                         </ListGroup>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className="mx-3 rounded border">
-                                <Card.Img src="./server.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="server logo" />
+                            <Card className="mx-2 rounded border">
+                                <Card.Img src="./server.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="server logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">Back-end</Card.Title>
                                     <Card.Text className="px-4">
-                                        <ListGroup variant="flush">
-                                            <ListGroup.Item className="text-center m-0 p-1">NodeJS</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">ExpressJS</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">MongoDB</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">Mongoose</ListGroup.Item>
+                                        <ListGroup>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />NodeJS</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />ExpressJS</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />MongoDB</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />Mongoose</ListGroup.Item>
                                         </ListGroup>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                        </CardGroup>
-                    </Col>
-                </Row>
-
-                {/* Detail */}
-                <Row className="m-0 mt-4 p-0">
-                    <Col md={12}>
-                        <CardGroup>
-                            <Card className="mx-3 rounded border">
-                                <Card.Img src="./tools.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="tools logo" />
+                            <Card className="mx-2 rounded border">
+                                <Card.Img src="./tools.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="tools logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">Divers</Card.Title>
                                     <Card.Text className="px-4">
-                                        <ListGroup variant="flush">
-                                            <ListGroup.Item className="text-center m-0 p-1">Visual Studio Code</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">Git</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">Scrum</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">Trello</ListGroup.Item>
+                                        <ListGroup>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />Visual Studio Code</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />Git</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />Scrum</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />Trello</ListGroup.Item>
                                         </ListGroup>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card className="mx-3 rounded border">
-                                <Card.Img src="./spinner.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem" }} alt="spinner logo" />
+                            <Card className="mx-2 rounded border">
+                                <Card.Img src="./spinner.svg" className="mt-4 px-2 align-self-center" style={{ height: "4rem", width: "4rem", backgroundColor: "#f2f2f2" }} alt="spinner logo" />
                                 <Card.Body>
                                     <Card.Title className="text-center font-weight-bold text-uppercase">En cours</Card.Title>
                                     <Card.Text className="px-4">
                                         <ListGroup variant="flush">
-                                            <ListGroup.Item className="text-center m-0 p-1">PHP</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">MySQL</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">VueJS</ListGroup.Item>
-                                            <ListGroup.Item className="text-center m-0 p-1">Scss</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />PHP</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />MySQL</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />VueJS</ListGroup.Item>
+                                            <ListGroup.Item className="text-left border-0 m-0 p-1"><img src="./tick.svg" alt="" className="mr-2" style={{ height: "1rem", width: "1rem" }} />Sass</ListGroup.Item>
                                         </ListGroup>
                                     </Card.Text>
                                 </Card.Body>

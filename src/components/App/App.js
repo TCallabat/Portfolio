@@ -4,7 +4,7 @@
 
 /* imports modules */
 import React, { } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
 
 /* import components */
 import Navbar from "../Navbar/Navbar";
@@ -30,7 +30,7 @@ import "./style.scss";
 function App(props) {
 
   return (
-    <HashRouter basename='/'>
+    <BrowserRouter basename='/'>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -48,7 +48,7 @@ function App(props) {
         <Route path="/project_09" component={Project_09} />
         <Route path="/project_10" component={Project_10} />
       </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

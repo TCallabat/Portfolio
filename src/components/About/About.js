@@ -31,10 +31,10 @@ function About(props) {
                         <p className="text-justify">Je m'appelle Thibaut Callabat</p>
                         <p className="text-justify">Passionné d'informatique depuis le plus jeune âge, j'ai eu l'opportunité de réaliser une formation diplômante en Mars 2020.</p>
                         <p className="text-justify">En effet, je me suis inscrit dans un bootcamp dédié aux métiers du développement web (stack MERN) et mobile (React Native) afin de me réorienter vers le métier de "Développeur FullStack JavaScript".</p>
-                        <p className="text-justify">Aujourd'hui, je suis à la recherche de nouvelles opportunités et de challenges !</p>
+                        <p className="text-justify">Aujourd'hui, je suis à la recherche d'opportunités en tant que développeur FullStack ou développeur Back-End JavaScript !</p>
                     </Col>
                     <Col md={3} className="align-self-center">
-                        <Image fluid src="./MERN.jpeg" alt="mern stack logo" />
+                        <Image fluid src="./picture.png" alt="" />
                     </Col>
                 </Row>
 

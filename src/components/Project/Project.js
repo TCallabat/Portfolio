@@ -4,7 +4,7 @@
 
 /* Import modules  */
 import React, { } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 /* Import others */
@@ -29,240 +29,207 @@ function Project(props) {
 
                 {/* Detail */}
                 <Row className="m-0 px-4 pt-4 pb-2 projectDetail">
-                    <Col md={12}>
-                        <ul className="m-0 position-relative list-unstyled" id="timeline">
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-left">
-                                    <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">CANNES IS UP</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Portage du site de l'association sur ReactJS, réalisation d'un annuaire, d'un formulaire d'inscription et création d'un backoffice pour la gestion des données avec accès adhérent/administrateur différencié.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_10-3.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_10">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-right">
-                                    <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">SITE ECOMMERCE</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'un site d'ecommerce fullstack JavaScript avec ReactJS et NodeJS.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_09-1.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_09">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-left">
-                                    <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">APPLICATION ECOMMERCE</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'une application mobile ecommerce fullstack JavaScript avec ReactNative et NodeJS.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_08-1.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_08">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-right">
-                                    <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">APPLICATION MÉTÉO</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'une application météo (jour et prévision) connectée à l'api openweather.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_07-4.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_07">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-left">
-                                    <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">CONTACT BOOK</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'un répertoire.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_06-5.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_06">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-right">
-                                    <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">TO DO LIST</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'une todo list.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_05-3.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_05">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-left">
-                                    <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">Configurateur auto</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'un script simulant un configurateur auto : choix de la finition, moteur, couleur, accessoires. Utilisation des alertes du navigateur pour la gestion des évènements.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_04-1.png" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_04">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-right">
-                                    <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">Casino</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'un script de régulation pour un casino simulant les actions suivantes : entrer, jouer ou consommer avec la gestion d'un solde minimum et d'un age. Utilisation des alertes du navigateur pour la gestion des évènements.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_03-1.png" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_03">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-left.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-left">
-                                    <div className="m-0 mr-5 px-3 py-2 position-relative rounded w-100 float-right bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">Artenobilia</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'une landing page responsive pour une galerie d'art respectant la charte graphique de la marque.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_02-4.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_02">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                            <li className="position-relative">
-                                <img className="mb-2 position-absolute icon" src="./share-right.svg" alt="" />
-                                <div className="m-0 p-0 w-50 float-right">
-                                    <div className="m-0 ml-5 px-3 py-2 position-relative rounded w-100 float-left bg-white border">
-                                        <Row>
-                                            <Col>
-                                                <h3 className="py-1 font-weight-bold text-uppercase">Mika Piscines</h3>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md={8}>
-                                                <p>Réalisation d'une landing page respectant les codes couleurs de la marque et responsive en utilisant les media queries.</p>
-                                            </Col>
-                                            <Col md={4}>
-                                                <Image fluid rounded alt="" src="./projects/project_01-1.jpg" />
-                                                <div className="text-center w-100 pt-1">
-                                                    <Link className="text-dark text-decoration-none" to="/project_01">En savoir plus</Link>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+
+                    {/* Project 10 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_10-3.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>CannesIsUp</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'un annuaire et d'un formulaire d'inscription pour l'association CannesIsUp. Création d'un backoffice permettant la gestion des adhérents avec accès selon rôle utilisateur.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_10">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
                     </Col>
+
+                    {/* Project 09 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_09-1.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>site ecommerce</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'un site d'ecommerce fullstack JavaScript avec ReactJS et NodeJS.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_09">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 08 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_08-1.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>application ecommerce</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'une application mobile ecommerce fullstack JavaScript avec ReactNative et NodeJS.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_08">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 07 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_07-4.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>application météo</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'une application météo (jour et prévision) connectée à l'api openweather.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_07">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 06 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_06-5.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>contact book</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'un répertoire.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_06">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 05 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_05-3.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>to do list</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'une to do list.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_05">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 04 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_04-1.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>configurateur auto</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'un script simulant un configurateur auto : choix de la finition, moteur, couleur, accessoires. Utilisation des alertes du navigateur pour la gestion des évènements.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_04">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 03 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_03-1.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>casino</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'un script de régulation pour un casino simulant les actions suivantes : entrer, jouer ou consommer avec la gestion d'un solde minimum et d'un age. Utilisation des alertes du navigateur pour la gestion des évènements.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_03">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 02 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_02-4.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>Artenobilia</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'une landing page responsive pour une galerie d'art respectant la charte graphique de la marque.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_02">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+                    {/* Project 01 */}
+                    <Col md={6} className="d-flex align-items-stretch">
+                        <Card className="mb-4 bg-white w-100" style={{ borderRadius: "1rem" }}>
+                            <Card.Body>
+                                <Row>
+                                    <Col md={3}>
+                                        <Card.Img fluid className="bg-dark" alt="" src="./projects/project_01-1.jpg" />
+                                    </Col>
+                                    <Col md={9}>
+                                        <Card.Title className="text-left font-weight-bold text-capitalize"><u>Mika piscines</u></Card.Title>
+                                        <Card.Text className="text-left">Réalisation d'une landing page respectant les codes couleurs de la marque et responsive en utilisant les media queries.</Card.Text>
+                                    </Col>
+                                </Row>
+                            </Card.Body>
+                            <Card.Footer className="bg-transparent">
+                                <Link className="pl-3 text-secondary text-decoration-none" to="/project_01">En savoir plus</Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
                 </Row>
 
                 {/* Images others */}
